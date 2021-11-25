@@ -146,7 +146,7 @@ class Dev(Configuration):
 	CRISPY_TEMPLATE_PACK = "bootstrap5"
 	
 class Proc(Dev):
-	DEBUG = False
+	DEBUG = True
 	SECRET_KEY = values.SecretValue()
 	LOGGING = {
     "version": 1,
